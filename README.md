@@ -118,13 +118,13 @@ $ rospack list | grep interbotix_xs_modules
 
 $ roslaunch interbotix_xsarm_descriptions xsarm_description.launch robot_model:=rx200 use_joint_pub_gui:=true
 
-## Get familiar with the physical robot arm (we’ll use a rx200 as an example) by executing the following command in the terminal:
+## Get familiar with the physical robot arm (rx200) by executing the following command in the terminal:
 
 $ source ~/interbotix_ws/devel/setup.bash
 
 $ roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=rx200
 
-## Last step here is to enable and disable the torque using the rosservice
+## The Last step here is to enable and disable the torque using the rosservice
 
 Open new Terminal
 
