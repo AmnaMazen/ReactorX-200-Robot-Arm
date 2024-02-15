@@ -19,7 +19,7 @@ You may get an error about missing packages such as "dynamixel-sdk"
 
 You will solve this error by installing this packages using the following command structure:
 
-$ sudo apt-get install ros-melodic-<package-name>
+$ sudo apt-get install ros-melodic-\<package-name\>
 
 In case of "dynamixel-sdk"
 
