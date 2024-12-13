@@ -7,11 +7,11 @@ For ROS Melodic installed on Ubuntu 18.04
 
 $ sudo apt install curl
 
-$ curl 'https://raw.githubusercontent.com/Interbotix/interbotix_ros_manipulators/main/interbotix_ros_xsarms/install/rpi4/xsarm_rpi4_install.sh' > xsarm_rpi4_install.sh
+$ curl 'https://raw.githubusercontent.com/Interbotix/interbotix_ros_manipulators/main/interbotix_ros_xsarms/install/amd64/xsarm_amd64_install.sh' > xsarm_amd64_install.sh
 
-$ chmod +x xsarm_rpi4_install.sh
+$ chmod +x xsarm_amd64_install.sh
 
-$ ./xsarm_rpi4_install.sh -d melodic
+$ ./xsarm_amd64_install.sh -d melodic
 
 You will get three questions during the installation, one about installation vision packages and another about installing MATLAB demos I accepted both of them by typing "y" in the terminal followed by "Enter key".
 
@@ -30,7 +30,7 @@ Note: You may need to replace every "_" with "-" in the name of the package.
 
 Now rerun the installation again:
 
-$ ./xsarm_rpi4_install.sh -d melodic
+$ ./xsarm_amd64_install.sh -d melodic
 
 ### Build the workspace by catkin_make
 
